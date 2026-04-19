@@ -1,0 +1,6 @@
+# format: username:password
+
+user1:pass123
+user2:qwerty@123
+admin:admin@2024
+test:test123

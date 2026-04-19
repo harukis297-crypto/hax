@@ -1,0 +1,15 @@
+.ssh/
+.termux/
+.npm/
+.cache/
+.local/
+.android/
+.kivy/
+.oh-my-zsh/
+.bash_history
+.gitconfig
+.zsh_history
+.bashrc
+.zshrc
+.wget-hsts
+.zcompdump*
