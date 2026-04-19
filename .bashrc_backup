@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Colors (RGB style)
+colors=(
+"\e[38;5;196m" "\e[38;5;202m" "\e[38;5;226m"
+"\e[38;5;82m" "\e[38;5;45m" "\e[38;5;93m"
+"\e[38;5;51m" "\e[38;5;201m"
+)
+
+reset="\e[0m"
+
+clear
+
+# 🔥 Boot Animation
+echo -e "\e[1;36mInitializing HARUKI OS...\e[0m"
+sleep 1
+
+for i in {1..40}; do
+    echo -ne "\e[1;32m█\e[0m"
+    sleep 0.02
+done
+
+sleep 1
+clear
+
+# 🎬 Animated Title Function
+animate_title() {
+    title="HARUKI TERMINAL"
+    for ((i=0; i<${#title}; i++)); do
+        color=${colors[$((RANDOM % ${#colors[@]}))]}
+        echo -ne "${color}${title:$i:1}${reset}"
+        sleep 0.03
+    done
+    echo ""
+}
+
+# 📊 Fake CPU Graph
+cpu_bar() {
+    echo -ne "CPU LOAD: "
+    for i in {1..25}; do
+        val=$((RANDOM % 100))
+        color=${colors[$((RANDOM % ${#colors[@]}))]}
+        if [ $val -gt

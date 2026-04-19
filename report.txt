@@ -1,0 +1,14 @@
+[*] Starting scan...
+Target: 192.168.1.1
+  [DOWN] Host not reachable
+--------------------------
+Target: 192.168.1.10
+  [DOWN] Host not reachable
+--------------------------
+Target: 192.168.30.53
+  [UP] Host is reachable
+  Checking common ports...
+--------------------------
+Target: google.com
+  [DOWN] Host not reachable
+--------------------------

@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: bounty
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/jlane9/bounty
+Author: John Lane
+Author-email: john.lane93@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
+
